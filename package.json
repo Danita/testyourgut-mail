@@ -1,0 +1,18 @@
+{
+  "name": "testyourgut-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+  },
+  "devDependencies": {
+	  "gulp": "^3.8.10",
+	  "gulp-premailer": "^0.3.0",
+	  "gulp-cdn-absolute-path": "^0.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
