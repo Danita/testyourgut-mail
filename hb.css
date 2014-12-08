@@ -1,4 +1,4 @@
-/* Overrides -------- */
+/* Overrides --------- */
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {
 	line-height: 1.4;
@@ -27,6 +27,51 @@ h3 {font-size: 28px;}
 h4 {font-size: 24px;}
 h5 {font-size: 18px;}
 h6 {font-size: 14px;}
+
+
+a {
+	color: #628a00;
+}
+
+a:hover {
+	color: #a6d146 !important;
+}
+
+a:active {
+	color: #a6d146 !important;
+}
+
+a:visited {
+	color: #628a00 !important;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #628a00;
+}
+
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active {
+	color: #628a00 !important;
+}
+
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+	color: #628a00 !important;
+}
+
 
 /* Layout -------- */
 
@@ -78,75 +123,3 @@ small, .text-small {
 .panel.quote {
 	padding: 15px!important;
 }
-
-/*
-table.facebook td {
-	background: #3b5998;
-	border-color: #2d4473;
-}
-
-table.facebook:hover td {
-	background: #2d4473 !important;
-}
-
-table.twitter td {
-	background: #00acee;
-	border-color: #0087bb;
-}
-
-table.twitter:hover td {
-	background: #0087bb !important;
-}
-
-table.google-plus td {
-	background-color: #DB4A39;
-	border-color: #CC0000;
-}
-
-table.google-plus:hover td {
-	background: #CC0000 !important;
-}
-
-.callout .wrapper {
-	padding-bottom: 20px;
-}
-
-.callout .panel {
-	background: #ECF8FF;
-	border-color: #b9e5ff;
-}
-
-
-
-.footer .wrapper {
-	background: #ebebeb;
-}
-
-.footer h5 {
-	padding-bottom: 10px;
-}
-
-table.columns .text-pad {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-table.columns .left-text-pad {
-	padding-left: 10px;
-}
-
-table.columns .right-text-pad {
-	padding-right: 10px;
-}
-
-@media only screen and (max-width: 600px) {
-
-	table[class="body"] .right-text-pad {
-		padding-left: 10px !important;
-	}
-
-	table[class="body"] .left-text-pad {
-		padding-right: 10px !important;
-	}
-}
-*/
