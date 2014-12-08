@@ -1,3 +1,5 @@
+/* Overrides -------- */
+
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {
 	line-height: 1.4;
 }
@@ -49,7 +51,6 @@ small, .text-small {
 	line-height: 1.2;
 }
 
-
 /* Blocks --------- */
 
 .panel-stage {
@@ -74,6 +75,10 @@ small, .text-small {
 	padding-left:10px !important;
 	padding-bottom: 0!important;
 }
+.panel.quote {
+	padding: 15px!important;
+}
+
 /*
 table.facebook td {
 	background: #3b5998;
