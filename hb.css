@@ -46,6 +46,7 @@ h6 {font-size: 14px;}
 
 small, .text-small {
 	font-size:12px;
+	line-height: 1.2;
 }
 
 
@@ -71,14 +72,14 @@ small, .text-small {
 .quote {
 	border-left: solid 3px #a6d146;
 	padding-left:10px !important;
+	padding-bottom: 0!important;
 }
 .list-item {
-	padding-left:25px !important;
+	margin-bottom: 10px;
 }
 .list-item-bullet {
-	margin-left:-25px;
+	width:25px!important;
 }
-
 /*
 table.facebook td {
 	background: #3b5998;
