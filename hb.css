@@ -23,7 +23,7 @@ h1 {font-size: 40px;}
 h2 {font-size: 32px;}
 h3 {font-size: 28px;}
 h4 {font-size: 24px;}
-h5 {font-size: 20px;}
+h5 {font-size: 18px;}
 h6 {font-size: 14px;}
 
 /* Layout -------- */
@@ -73,12 +73,6 @@ small, .text-small {
 	border-left: solid 3px #a6d146;
 	padding-left:10px !important;
 	padding-bottom: 0!important;
-}
-.list-item {
-	margin-bottom: 10px;
-}
-.list-item-bullet {
-	width:25px!important;
 }
 /*
 table.facebook td {
